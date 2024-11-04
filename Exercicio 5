@@ -1,0 +1,13 @@
+texto = input ("Digite algo: ")
+i=[]
+inverso = ''
+soma=-1
+
+while int(len (texto)) > int(len (i)):
+    i.append(texto[soma])
+    soma= soma-1
+ 
+for elemento in i:
+    inverso += elemento
+    
+print (inverso)

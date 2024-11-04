@@ -1,0 +1,13 @@
+n = int(input ("Escolha seu número: "))
+fibonacci = [0,1]
+
+while int (fibonacci [-1]) < n:
+    soma = fibonacci [-2] + fibonacci [-1]
+    fibonacci.append (soma)
+
+if n in fibonacci:
+    print ("Seu número pertence à sequência de Fibonacci!")
+else:
+    print ("Seu número NÃO pertence à sequência de Fibonacci!")
+    
+print (fibonacci)
