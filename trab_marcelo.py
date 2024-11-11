@@ -2,7 +2,6 @@ import random
 escala = int(input('Escolha o tamanho da escala do game: '))
 
 functions = ['w','a','s','d']
-frases = ['Quem se mexer é gay', "Mexe ai bichona", 'Anda logo', 'Bora rapaz']
 mortes = ['Se matou lerdão!', 'Caiu otário!', 'You fell bitch!', 'MAS É BURRO!', 'pqp tu não leu a única regra?!?!']
 fim=random.choice(mortes)
 h=0
